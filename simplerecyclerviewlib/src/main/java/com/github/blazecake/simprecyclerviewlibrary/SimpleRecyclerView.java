@@ -36,14 +36,17 @@ public class SimpleRecyclerView extends RecyclerView {
 
     public SimpleRecyclerView(Context context) {
         super(context);
+        init();
     }
 
     public SimpleRecyclerView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
+        init();
     }
 
     public SimpleRecyclerView(Context context, @Nullable AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
+        init();
     }
 
     private void init(){
