@@ -25,7 +25,7 @@ public class SimpleRecyclerView extends RecyclerView {
         isLoadable = loadable;
     }
 
-    public void setLayoutManager(LinearLayoutManager layoutManager) {
+    public void setLinearLayoutManager(LinearLayoutManager layoutManager) {
         this.layoutManager = layoutManager;
         setLayoutManager(layoutManager);
     }
@@ -35,13 +35,11 @@ public class SimpleRecyclerView extends RecyclerView {
     }
 
     public SimpleRecyclerView(Context context) {
-        super(context);
-        init();
+        this(context, null, 0);
     }
 
     public SimpleRecyclerView(Context context, @Nullable AttributeSet attrs) {
-        super(context, attrs);
-        init();
+        this(context, attrs, 0);
     }
 
     public SimpleRecyclerView(Context context, @Nullable AttributeSet attrs, int defStyle) {
