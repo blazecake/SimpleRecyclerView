@@ -4,6 +4,7 @@
 Only with a simple RecyclerView that loads more features, and the other uses the same as RecyclerView.
 
 可以把源码文件拷贝进项目里或者使用下面的仓库导入
+
 用法：
 
 Step 1. Add the JitPack repository to your build file
