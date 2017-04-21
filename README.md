@@ -18,7 +18,7 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 
   dependencies {
-      compile 'com.github.User:Repo:Tag'
+      compile 'com.github.blazecake:SimpleRecyclerView:v1.1'
     }
 
   
